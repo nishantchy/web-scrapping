@@ -21,7 +21,7 @@ for i in range(2, 3):
     if r.status_code != 200:
         print("Skipping due to rate limit or error.")
         time.sleep(5) 
-        # continue
+        continue
 
     soup = BeautifulSoup(r.text, "lxml")
     box = soup.find("div", class_ = "DOjaWF gdgoEp")

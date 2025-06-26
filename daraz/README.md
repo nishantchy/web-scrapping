@@ -1,0 +1,1 @@
+This is a webscrapping script for Daraz.com.np. This is done using Selenium and webdriver because of JavaScrit Loading page. It waits for 15 secs before the complete page renders then gets the products.
