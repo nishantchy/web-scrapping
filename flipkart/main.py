@@ -71,7 +71,10 @@ data_frame = pd.DataFrame({"Product Name": Product_name, "Prices": Prices, "Desc
 
 data_frame.to_csv("flipkart_mobile_under_15000.csv", index = False)
 
-
+data_frame.to_json("flipkart_mobile_under_15000.json", orient="records", indent=2)
+    
+    
+    
     # print(soup.prettify())
     # while True:
     # next_page = soup.find("a", class_ = "_9QVEpD").get("href")
